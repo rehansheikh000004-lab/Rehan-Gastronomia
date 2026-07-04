@@ -594,3 +594,117 @@ font-size:48px;
 }
 
 }
+
+/*==========================
+EXPERIENCE
+==========================*/
+
+.experience{
+
+padding:140px 8%;
+
+display:grid;
+
+grid-template-columns:1fr 1fr;
+
+gap:80px;
+
+align-items:center;
+
+}
+
+.experience-image img{
+
+width:100%;
+
+height:700px;
+
+object-fit:cover;
+
+border-radius:30px;
+
+transition:.5s;
+
+}
+
+.experience-image img:hover{
+
+transform:scale(1.03);
+
+}
+
+.experience-content h2{
+
+font-family:'Playfair Display',serif;
+
+font-size:68px;
+
+margin:20px 0;
+
+}
+
+.experience-content p{
+
+line-height:2;
+
+color:#bdbdbd;
+
+margin-bottom:35px;
+
+}
+
+.experience-features{
+
+display:grid;
+
+gap:25px;
+
+margin-bottom:40px;
+
+}
+
+.feature{
+
+padding:25px;
+
+background:#171717;
+
+border-radius:20px;
+
+border:1px solid rgba(255,255,255,.08);
+
+transition:.3s;
+
+}
+
+.feature:hover{
+
+border-color:#d4af37;
+
+transform:translateX(10px);
+
+}
+
+.feature h3{
+
+margin-bottom:10px;
+
+color:#d4af37;
+
+}
+
+@media(max-width:1000px){
+
+.experience{
+
+grid-template-columns:1fr;
+
+}
+
+.experience-content{
+
+text-align:center;
+
+}
+
+}
