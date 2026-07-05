@@ -708,3 +708,87 @@ text-align:center;
 }
 
 }
+
+<!-- ==========================
+INTERACTIVE MENU
+========================== -->
+
+<section class="menu-section">
+
+<div class="section-heading">
+
+<p>OUR MENU</p>
+
+<h2>Signature Menu</h2>
+
+<span>Curated dishes prepared with premium ingredients.</span>
+
+</div>
+
+<div class="menu-filter">
+
+<button class="filter-btn active" data-filter="all">All</button>
+
+<button class="filter-btn" data-filter="starter">Starters</button>
+
+<button class="filter-btn" data-filter="main">Main Course</button>
+
+<button class="filter-btn" data-filter="dessert">Desserts</button>
+
+<button class="filter-btn" data-filter="drink">Drinks</button>
+
+</div>
+
+<div class="menu-grid">
+
+<div class="menu-card starter">
+
+<img src="images/starter.jpg" alt="Starter">
+
+<h3>Truffle Bruschetta</h3>
+
+<p>Fresh artisan bread with truffle cream.</p>
+
+<span>₹699</span>
+
+</div>
+
+<div class="menu-card main">
+
+<img src="images/main.jpg" alt="Main">
+
+<h3>Imperial Wagyu</h3>
+
+<p>Premium A5 Wagyu steak with vegetables.</p>
+
+<span>₹4,999</span>
+
+</div>
+
+<div class="menu-card dessert">
+
+<img src="images/dessert.jpg" alt="Dessert">
+
+<h3>Golden Chocolate</h3>
+
+<p>Luxury mousse with edible gold.</p>
+
+<span>₹1,499</span>
+
+</div>
+
+<div class="menu-card drink">
+
+<img src="images/drink.jpg" alt="Drink">
+
+<h3>Vintage Wine</h3>
+
+<p>Exclusive reserve collection.</p>
+
+<span>₹2,499</span>
+
+</div>
+
+</div>
+
+</section>
