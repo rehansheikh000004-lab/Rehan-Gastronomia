@@ -153,3 +153,23 @@ card.style.display="none";
 });
 
 });
+
+/*==========================
+RESERVATION FORM
+==========================*/
+
+const reservationForm = document.querySelector(".reservation-form");
+
+if (reservationForm) {
+
+reservationForm.addEventListener("submit", function(e){
+
+e.preventDefault();
+
+alert("Thank you! Your reservation request has been received.");
+
+reservationForm.reset();
+
+});
+
+}
